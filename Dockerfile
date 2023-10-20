@@ -1,6 +1,7 @@
 FROM node:7.7.2
 
-ENV ACCEPT_HIGHCHARTS_LICENSE="YES"
+ENV ACCEPT_HIGHCHARTS_LICENSE=YES
+ENV HIGHCHARTS_VERSION=9.2.2
 RUN npm install highcharts-export-server@2.1.0 -g 
 
 WORKDIR /usr/share/fonts/truetype
