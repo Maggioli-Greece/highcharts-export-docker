@@ -18,4 +18,4 @@ ADD fonts/OpenSans-ExtraBoldItalic.ttf OpenSans-ExtraBoldItalic.ttf
 WORKDIR /
 
 EXPOSE 8080
-ENTRYPOINT ["highcharts-export-server", "--enableServer", "1", "--port", "8080", "--logLevel", "4", "--workers", "4", "--workLimit", "10"]
+ENTRYPOINT ["highcharts-export-server", "--enableServer", "1", "--port", "8080", "--logLevel", "4", "--workers", "4", "--workLimit", "1"]
